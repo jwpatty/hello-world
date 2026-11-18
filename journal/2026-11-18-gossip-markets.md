@@ -68,3 +68,19 @@ Fact-checkers and censors are the same kind of object, screens that differ in wh
 - Libel law as a natural variable: strict defamation regimes (UK vs. US) may push free-press tabloids toward coded insinuation, making them more Kremlinological.
 - Equilibrium share of naive readers needed to sustain the market.
 - A human figure for the chapter: someone known for reading the screen.
+
+### Corrections and refinements (round 3)
+
+*Provenance convention from here on: **[you]** = your move, **[me]** = Claude's suggestion. Retroactive note: the term "Kremlinology" was introduced by [me] in round 1, not by you.*
+
+**[you] The table elides positive vs. negative agenda control.** "Allowed or wanted" mixes two distinct powers:
+
+- **Negative control (veto):** publication shows only *not blocked*, a weak signal. Absence is informative under this regime.
+- **Positive control (placement):** publication shows *someone pushed it*, a strong signal. Absence is mostly uninformative.
+- [me] So the reader's first task is to infer which face of power is operating, since that decides whether to read presence or absence. Connects to Cox & McCubbins (agenda control) and Bachrach & Baratz (non-decisions). Revised frame: each gatekeeper is described by *what it screens on* and *which direction it screens*.
+
+**[you] In a liberal press there is still a censor: the subject.**
+
+- [me] Censorship is spread out rather than central. Subjects hold both faces partially: negative (killing stories, catch-and-kill, legal threats, access) and positive (publicists, placements).
+- [me] Inference: since censoring capacity grows with power, an unflattering story getting through is evidence of a *lapsed veto*, a signal about the subject's power and not only their conduct. "They're finished" is a reading of the screen's failure.
+- [me] Sharpens the cross-national answer: every regime has censors; the difference is one vs. many.
