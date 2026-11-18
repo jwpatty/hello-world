@@ -121,3 +121,31 @@ Fact-checkers and censors are the same kind of object, screens that differ in wh
 - Target results: (i) suppress-Q condition without J; (ii) J expands the suppression region; (iii) the autocrat's optimal J credibility is low (deliberate degradation).
 
 **Literature to position against (verify):** Egorov, Guriev & Sonin (2009); Lorentzen (2014); Gehlbach & Sonin (2014); Shadmehr & Bernhardt (2015); Edmond (2013); Wintrobe (dictator's dilemma); Kuran (preference falsification). Claimed novelty: the differentially decoded outlet and the complementarity with quality-press suppression.
+
+### Porting the machinery of *Preventing Prevention* (round 5)
+
+**[you]** Port the machinery from Gailmard & Patty, "Preventing Prevention," AJPS 63(2), 2019. Note that its footnote 12 already flags the autocracy extension: secure autocrats lack the signaling pressure but "may implement projects more often but ineffectively due to corruption."
+
+**Mapping [me]**
+
+| *Preventing Prevention* | Autocrat port |
+|---|---|
+| Incumbent, type t ∈ {honest, corrupt}, prior π | Agency head, same types (corrupt = project rents) |
+| Privately observes ω (high risk w.p. q) | Same |
+| Prevention x, disaster y ~ p(x, ω), relief z | Same |
+| Voter observes (x, y, z), retains or replaces | Autocrat observes (x, y, z), retains or replaces |
+| Career concerns w | Keeping the post |
+| Remedy: independent auditors reveal ω | Quality press reveals ω, publicly |
+| (none) | Citizens observe ω on the ground; protest or not |
+| (none) | Tabloid: noisy signal of ω, decoded by the autocrat, discounted by citizens |
+
+**Port results [me]**
+
+1. **400 quiet periods = career concerns, not corruption.** By Props 1, 2 and 4, with ω unobserved and large w, both types pool on x = 0 and the belief stays at π. A quiet record says nothing about type; it shows the honest heads are also staying quiet. The autocrat faces preventing prevention inside its own bureaucracy.
+2. **Tabloid = the autocrat's independent auditor, via commitment.** Under pooling, signals about ω are useless for *selection* (ω ⟂ t) but useful for *incentives* (retention contingent on ground reports). Voters can't commit (Lemma 1 pins retention); an autocrat acting as employer can (bureaucratic rules; cf. China's cadre evaluation with veto targets on disasters and mass incidents). Commitment turns gossip from useless to valuable.
+3. **Back-of-envelope threshold (to check).** R = corrupt type's net gain from acting at ω = 0; B = honest type's net gain from acting at ω = 1 (> 0 by condition (2)). Tabloid: Pr(s=0|ω=0) = a > b = Pr(s=0|ω=1). Rule: retain after x = 0; after (x=1, s=0) fire w.p. f. Constraints w·a·f ≥ R and w·b·f ≤ B ⇒ feasible iff **a/b ≥ R/B** (and w·a ≥ R). The career-concern strength w drops out: the tabloid's likelihood ratio must beat rents / public-spiritedness. Disasters are a free signal with ratio (1−p(1,0))/(1−p(1,1)); the tabloid covers the shortfall.
+   - **Open question for you:** this needs on-path indifference (π_C = π), which Prop 2's proof invokes. If so, can the voter in the original model condition on y the same way in some parameter regions? Or does Prop 4 assume π_C ≠ π, so only off-path beliefs (D1) bite? This decides whether "commitment" or "indifference" carries the port.
+4. **Sign of φ (patronage) → footnote 12 as a result (conjecture).** If the autocrat shares rents with corrupt heads, φ < 0, x = 1 becomes good news, and D1 tilts toward "all prevention, all the time" (over-building). Democracies under-prevent; patronage autocracies over-prevent; same mechanism, opposite sign. Not yet checked against D1.
+5. **Complementarity restated.** Once the tabloid clears a/b ≥ R/B, the quality press adds no disciplinary value but keeps its coordination cost, so it gets suppressed. The autocrat's ideal tabloid sits at the threshold.
+
+**What's new relative to the paper:** the principal isn't the welfare-holder (cares only about the protest tail); the people who know ω (citizens) and the people who decide on retention (the autocrat) are different; commitment separates selection from incentives; the sign of φ separates regimes.
