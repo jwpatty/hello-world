@@ -84,3 +84,40 @@ Fact-checkers and censors are the same kind of object, screens that differ in wh
 - [me] Censorship is spread out rather than central. Subjects hold both faces partially: negative (killing stories, catch-and-kill, legal threats, access) and positive (publicists, placements).
 - [me] Inference: since censoring capacity grows with power, an unflattering story getting through is evidence of a *lapsed veto*, a signal about the subject's power and not only their conduct. "They're finished" is a reading of the screen's failure.
 - [me] Sharpens the cross-national answer: every regime has censors; the difference is one vs. many.
+
+### Model 2 as a real paper: "the dictator's tabloid" (round 4)
+
+**[you] The setup (lightly cleaned):**
+
+> The government has a binary, costly preventive action. The only reason to take it is a 1-in-20-year flood (~5%). Think about oversight of the preventive-action agency: there's a small latent probability p that the agency isn't responsive. We need to work out the Markovian variable the agency conditions on each period. If I watch it for 400 periods and never see it pull the trigger, I conclude it's not using the 5% rule.
+>
+> If you're a Kremlinologist, you don't want completely accurate coverage of the agency's actual performance (it won't be optimal, because of corruption or whatever), but you want coverage that's informative about what people are seeing on the ground. Global-games-esque, but without the weirdness.
+>
+> N voters (finite, for measure-theoretic reasons) each observe the same signal (the truth) but have different thresholds for protest vs. not. The government wants to know: is over 5% of the population protesting? It worries about tails. The small set of states where the government didn't want the truth ex ante but was glad ex post to have it ("thank goodness I knew, my best response would have been terrible without it") is enough support that there are worlds where the autocracy really needs the tabloids. And willingness to accommodate tabloids (a risk) will accentuate the autocrat's willingness to further suppress the top-end outlets.
+
+**[me] Tightening**
+
+1. **Information asymmetry:** the autocrat sees actions a_t, not floods. Citizens see both. With p = 0.01 and a never-acting bad agency, the center needs about 90 quiet periods to reach 50% belief that the agency is bad (400 periods gives near-certainty: 0.95^400 ≈ 1e-9). Citizens learn in one flood. The tail risk lives in that gap, so the tabloid's value is *early warning*.
+   - Harder case: a bad agency that **mimics the base rate** (acts randomly ~5%) makes action frequency uninformative. Only the action–flood correlation reveals type, and only ground observers see it.
+2. **The designer is also a receiver.** Unlike standard Bayesian persuasion, the autocrat doesn't know the state, and any outlet informs both it and the public. The tabloid breaks this through **differential decoding**: citizens discount it (no threshold shift, no common knowledge), while the center reads its selection, Kremlinologically. Links to round 1: the autocrat is the ultimate sophisticated reader.
+3. **[you] Complementarity, [me] mechanism:** value of the quality outlet to the autocrat ≈ information value − coordination cost. The tabloid substitutes for the information part (especially tail states) and leaves the coordination cost unchanged, so the suppression region expands. *Tolerating junk and repressing quality press are complements.* Policy implication: backing "any independent media" may lower the cost of cracking down on quality outlets.
+   - Corollary: **the autocrat wants the tabloid to stay junk** and may salt it with fabrications to keep citizens discounting it. This is the entry's unraveling story run in reverse, on purpose.
+4. **Global games:** without strategic complementarity in protest, the protest share is a deterministic F(θ), so the tail event is {θ : F(θ) > 5%} with a unique outcome. Start there. Adding complementarity brings back multiplicity, so treat it as an extension.
+
+**Referee pushes to pre-empt**
+
+- Why not informants or secret police? (They're a private tabloid inside the same corrupt chain, or costlier; the tabloid's sources self-select from the ground.)
+- Why tolerate a corrupt agency? (A patronage good for the coalition, which is also why accurate coverage is costly ex ante.)
+- Protest is observable, so why does the center need media? (By the time it's visible you're past 5%. The "glad ex post" set is the states just short of tipping.)
+
+**Minimal model sketch**
+
+- Periods t = 1…T; flood ω_t ∈ {0,1}, Pr = q = 0.05.
+- Agency good w.p. 1−p (acts iff ω_t = 1); bad never acts (extension: mimics at rate q).
+- Autocrat observes a_t; citizens observe (ω_t, a_t).
+- Citizen i protests if accumulated failures g_t ≥ t_i; protest share s_t, N finite.
+- Quality outlet Q: accurate, credible, common knowledge, lowers thresholds by Δ. Tabloid J: noisy ground reports, discounted by citizens, decoded by the autocrat.
+- Autocrat each period: intervene at cost k; loss L if s_t > 0.05.
+- Target results: (i) suppress-Q condition without J; (ii) J expands the suppression region; (iii) the autocrat's optimal J credibility is low (deliberate degradation).
+
+**Literature to position against (verify):** Egorov, Guriev & Sonin (2009); Lorentzen (2014); Gehlbach & Sonin (2014); Shadmehr & Bernhardt (2015); Edmond (2013); Wintrobe (dictator's dilemma); Kuran (preference falsification). Claimed novelty: the differentially decoded outlet and the complementarity with quality-press suppression.
